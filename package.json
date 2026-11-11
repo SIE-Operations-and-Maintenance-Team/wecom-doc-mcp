@@ -1,0 +1,19 @@
+{
+  "name": "wecom-doc-mcp",
+  "version": "1.0.0",
+  "description": "企业微信文档 MCP Server - 通过 Cookie 认证读取 doc.weixin.qq.com 文档",
+  "type": "module",
+  "scripts": {
+    "start": "npx tsx src/index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "cheerio": "^1.0.0",
+    "turndown": "^7.2.0"
+  },
+  "devDependencies": {
+    "@types/turndown": "^5.0.5",
+    "typescript": "^5.7.0",
+    "tsx": "^4.19.0"
+  }
+}
